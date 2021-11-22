@@ -20,12 +20,10 @@ This specification is used commonly in most DeFi protocols to incentivize people
 
 **Expected Behavior**
 1. Creator of ERC20 token mints some new ERC20 token upon deploying the contract. 
-
 50% of ERC20 tokens are sent to the Creator and the remaining 50% of ERC20 tokens are sent to the staking contract for rewards.
 
 2. Holders of the ERC20 token should be able to transfer the ERC20 tokens and have the correct balances credited to the rightful addresses.
 
 3. Holders of the ERC20 token can stake the ERC20 tokens to acquire some additional staking token (also an erc20) which denotes the tokens staked in the protocol.
-
 This staking token will entitle the staker to rewards for the ERC20 staked upon calling the getReward() function or exit() function.
 
